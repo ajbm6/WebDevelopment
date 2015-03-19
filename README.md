@@ -9,5 +9,5 @@ The frameworks/sources that are used here are as followed:
 [Video.JS](http://www.videojs.com/)  
 [FontAwesome](http://fortawesome.github.io/Font-Awesome/)  
 [Weather Icon Font](http://www.artill.de/weather-icon-font/)  
-[JQuery v1.11.1](http://jquery.org/)
+[JQuery v1.11.1](http://jquery.org/)  
 [simpleWeather.js (Requires JQuery)](http://simpleweatherjs.com/)
