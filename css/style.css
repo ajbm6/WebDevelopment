@@ -400,6 +400,10 @@ fieldset[disabled] .def-btn-default.active {
 
 }
 
+.starrr {
+	cursor: pointer;
+}
+
 .sidebar-nav li.active {
     color: #fff !important;
     background-color: #ec1b5a;
