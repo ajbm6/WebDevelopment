@@ -30,6 +30,10 @@ html { height: 100%;}
     left: 0;
 }
 
+.follow-well {
+	padding-left: 10px;
+}
+
 /* Text colors */
 
 .text-color-white {
@@ -227,6 +231,80 @@ html { height: 100%;}
   line-height:22px;
   border: 4px solid !important;
   padding:13px 40px;
+}
+
+.def-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.def > .caret,
+.dropup > .def > .caret {
+    border-top-color: #000 !important;
+ }
+ 
+.def-btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.def-btn-default:hover,
+.def-btn-default:focus,
+.def-btn-default.focus,
+.def-btn-default:active,
+.def-btn-default.active,
+.open > .dropdown-toggle.def-btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.def-btn-default:active,
+.def-btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.def-btn-default.disabled,
+.def-btn-default[disabled],
+fieldset[disabled] .def-btn-default,
+.def-btn-default.disabled:hover,
+.def-btn-default[disabled]:hover,
+fieldset[disabled] .def-btn-default:hover,
+.def-btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .def-btn-default:focus,
+.def-btn-default.disabled.focus,
+.def-btn-default[disabled].focus,
+fieldset[disabled] .def-btn-default.focus,
+.def-btn-default.disabled:active,
+.def-btn-default[disabled]:active,
+fieldset[disabled] .def-btn-default:active,
+.def-btn-default.disabled.active,
+.def-btn-default[disabled].active,
+fieldset[disabled] .def-btn-default.active {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.def-btn-default .badge {
+  color: #fff;
+  background-color: #333;
 }
 
 /*-------------------------------*/
