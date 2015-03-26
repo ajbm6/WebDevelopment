@@ -42,11 +42,9 @@ var __slice = [].slice;
             var _i, _ref, _results;
 
             _results = [];
-			_results.push(this.$el.append("<ul>"));
             for (_i = 1, _ref = this.options.numStars; 1 <= _ref ? _i <= _ref : _i >= _ref; 1 <= _ref ? _i++ : _i--) {
                 _results.push(this.$el.append("<i class='fa fa-star-o' style='padding-left: 5px; padding-right: 5px;'></i>"));
             }
-			_results.push(this.$el.append("</ul>"));
             return _results;
         };
 
