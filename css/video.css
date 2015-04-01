@@ -1,0 +1,7 @@
+.vjs-default-skin { color: #c7c7c7 !important; }
+.vjs-default-skin .vjs-play-progress,
+.vjs-default-skin .vjs-volume-level { background-color: #ff6d00 !important;}
+.vjs-default-skin .vjs-control-bar,
+.vjs-default-skin .vjs-big-play-button { background: rgba(0,0,0,0.95) !important;}
+.vjs-default-skin .vjs-slider { background: rgba(0,0,0,0.31666666666666665) !important; }
+.vjs-default-skin .vjs-control-bar { font-size: 84% !important; }
